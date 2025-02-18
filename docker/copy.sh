@@ -9,33 +9,33 @@ usage() {
 
 # copy sql
 echo "begin copy sql "
-cp ../sql/ry_20240629.sql ./mysql/db
-cp ../sql/ry_config_20240902.sql ./mysql/db
+cp ../sql/heritage_20240629.sql ./mysql/db
+cp ../sql/heritage_config_20240902.sql ./mysql/db
 
 # copy html
 echo "begin copy html "
-cp -r ../ruoyi-ui/dist/** ./nginx/html/dist
+cp -r ../heritage-ui/dist/** ./nginx/html/dist
 
 
 # copy jar
-echo "begin copy ruoyi-gateway "
-cp ../ruoyi-gateway/target/ruoyi-gateway.jar ./ruoyi/gateway/jar
+echo "begin copy heritage-gateway "
+cp ../heritage-gateway/target/heritage-gateway.jar ./heritage/gateway/jar
 
-echo "begin copy ruoyi-auth "
-cp ../ruoyi-auth/target/ruoyi-auth.jar ./ruoyi/auth/jar
+echo "begin copy heritage-auth "
+cp ../heritage-auth/target/heritage-auth.jar ./heritage/auth/jar
 
-echo "begin copy ruoyi-visual "
-cp ../ruoyi-visual/ruoyi-monitor/target/ruoyi-visual-monitor.jar  ./ruoyi/visual/monitor/jar
+echo "begin copy heritage-visual "
+cp ../heritage-visual/heritage-monitor/target/heritage-visual-monitor.jar  ./heritage/visual/monitor/jar
 
-echo "begin copy ruoyi-modules-system "
-cp ../ruoyi-modules/ruoyi-system/target/ruoyi-modules-system.jar ./ruoyi/modules/system/jar
+echo "begin copy heritage-modules-system "
+cp ../heritage-modules/heritage-system/target/heritage-modules-system.jar ./heritage/modules/system/jar
 
-echo "begin copy ruoyi-modules-file "
-cp ../ruoyi-modules/ruoyi-file/target/ruoyi-modules-file.jar ./ruoyi/modules/file/jar
+echo "begin copy heritage-modules-file "
+cp ../heritage-modules/heritage-file/target/heritage-modules-file.jar ./heritage/modules/file/jar
 
-echo "begin copy ruoyi-modules-job "
-cp ../ruoyi-modules/ruoyi-job/target/ruoyi-modules-job.jar ./ruoyi/modules/job/jar
+echo "begin copy heritage-modules-job "
+cp ../heritage-modules/heritage-job/target/heritage-modules-job.jar ./heritage/modules/job/jar
 
-echo "begin copy ruoyi-modules-gen "
-cp ../ruoyi-modules/ruoyi-gen/target/ruoyi-modules-gen.jar ./ruoyi/modules/gen/jar
+echo "begin copy heritage-modules-gen "
+cp ../heritage-modules/heritage-gen/target/heritage-modules-gen.jar ./heritage/modules/gen/jar
 
