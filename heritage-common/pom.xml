@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.heritage</groupId>
+        <artifactId>Heritage</artifactId>
+        <version>3.6.5</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>heritage-common-log</module>
+        <module>heritage-common-core</module>
+        <module>heritage-common-redis</module>
+        <module>heritage-common-seata</module>
+        <module>heritage-common-swagger</module>
+        <module>heritage-common-security</module>
+        <module>heritage-common-sensitive</module>
+        <module>heritage-common-datascope</module>
+        <module>heritage-common-datasource</module>
+    </modules>
+
+    <artifactId>heritage-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        ruoyi-common通用模块
+    </description>
+
+</project>

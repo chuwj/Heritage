@@ -1,0 +1,2 @@
+com.heritage.common.log.service.AsyncLogService
+com.heritage.common.log.aspect.LogAspect

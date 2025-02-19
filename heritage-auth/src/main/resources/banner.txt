@@ -1,0 +1,11 @@
+Spring Boot Version: ${spring-boot.version}
+Spring Application Name: ${spring.application.name}
+**********************************************
+*                                            *
+*       WELCOME TO HERITAGE-AUTH             *
+*                                            *
+*   Empowering Secure Access & Identity      *
+*                                            *
+*         Version: 2025.02                   *
+*                                            *
+**********************************************

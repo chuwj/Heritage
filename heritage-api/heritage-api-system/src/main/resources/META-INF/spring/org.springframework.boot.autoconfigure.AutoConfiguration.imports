@@ -1,0 +1,3 @@
+com.heritage.system.api.factory.RemoteUserFallbackFactory
+com.heritage.system.api.factory.RemoteLogFallbackFactory
+com.heritage.system.api.factory.RemoteFileFallbackFactory
